@@ -25,9 +25,9 @@ setlocal enableextensions enabledelayedexpansion
 ::  Bootloadable's project name, path to LinkerScripts\ folder
 ::  These settings are required in order for script to works as expected
 ::
-set LOADER_PRJ_NAME=BLE_OTA_FixedStack_Bootloader01
+set LOADER_PRJ_NAME=BLE_OTA_FixedStack_Bootloader
 set LOADER_PRJ_PATH=%~dp0..\
-set LOADABLE_PRJ_NAME=BLE_OTA_FixedStack_Bootloadable01
+set LOADABLE_PRJ_NAME=BLE_OTA_FixedStack_Bootloadable
 set OUTPUT_DIR=%~dp0..\..\%LOADABLE_PRJ_NAME%.cydsn\LinkerScripts\
 
 ::
@@ -42,7 +42,7 @@ set PROGRAM_FILES_PATH=c:\Program Files (x86)
 GOTO DONE_PC_PATH
 :DONE_PC_PATH
 
-set CREATOR_VERSION=4.2
+set CREATOR_VERSION=4.1
 set CREATOR_LOCATION=%PROGRAM_FILES_PATH%\Cypress\PSoC Creator
 
 ::
